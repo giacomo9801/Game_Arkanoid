@@ -1,5 +1,5 @@
 # Game_Arkanoid
-<h3>Progetto realizzato per l'esame di Sviluppo Mobile Software Android.</h3>
+Progetto realizzato per l'esame di Sviluppo Mobile Software Android.
 File google.json da sostituire e creare per testare la modalità online l'online.
 ![Senza titolo](https://user-images.githubusercontent.com/38552315/172208590-63fe7f9c-7ea5-4e96-859f-488db8d7459e.png)
 ![Senza titolo2](https://user-images.githubusercontent.com/38552315/172208599-89c8c496-d9da-4f0b-a4e9-3e095faea0ef.png)
