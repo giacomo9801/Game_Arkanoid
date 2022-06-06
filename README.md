@@ -1,4 +1,4 @@
-# Game_Arkanoid
+# Game_Arkavirus (Arkanoid)
 Progetto realizzato per l'esame di Sviluppo Mobile Software Android.
 File google.json da sostituire e creare per testare la modalità online (basata su FIREBASE).
 La traccia era la seguente:
