@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".Game.Editor.FragmentBall">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:textSize="20sp"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="80sp"
+        android:textStyle="bold"
+        android:text="@string/scegli_la_velocit_della_pallina_nel_gioco" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:src="@drawable/redball"
+        android:layout_marginTop="190sp"
+        android:layout_marginStart="200sp"/>
+
+    <LinearLayout
+        android:layout_width="410sp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/velocit"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/white"
+            android:layout_marginTop="300sp"
+            android:layout_marginStart="30sp"
+            android:textSize="18sp"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBarball"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="300sp"
+            android:max="3"
+            android:min="1"
+            android:progress="1"
+            android:thumbTint="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165sp"
+        android:layout_marginTop="350sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</FrameLayout>

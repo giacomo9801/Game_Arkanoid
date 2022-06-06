@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".Settings.UserActivity">
+
+
+    <Button
+        android:id="@+id/sharescore"
+        android:layout_width="wrap_content"
+        android:layout_height="36sp"
+        android:layout_marginTop="16sp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/img_whatsapp"
+        android:drawablePadding="3sp"
+        android:textSize="12sp"
+        android:layout_marginStart="210sp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/punteggio_whatsapp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/avatarprofile"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/avatar_android"
+        android:contentDescription="@string/immagine_avatar" />
+
+    <TextView
+        android:id="@+id/riepilogo_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:textSize="12sp"
+        android:text="@string/riepilogo_dati_giocatore"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatarprofile" />
+
+    <TextView
+        android:id="@+id/nomeutente_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_utente"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="120sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/setnomeutente_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="120sp"
+        android:layout_marginEnd="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/highscore_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/high_score"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="150sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <TextView
+        android:id="@+id/sethighscore_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="250sp"
+        android:layout_marginTop="150sp"
+        android:layout_marginEnd="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <TextView
+        android:id="@+id/ngame_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/partite_giocate"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="180sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <TextView
+        android:id="@+id/setngame_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="250sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginEnd="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/classifica"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginTop="210sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="43sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="3sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/trophy"
+        android:contentDescription="@string/immagine_coppa" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="260sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="second"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="270sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="third"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="280sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fourth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="290sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fifth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="300sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sixth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="310sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seventh"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="320sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/eighth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eighth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="330sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/nineth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nineth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="340sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tenth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tenth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="350sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/firstpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="260sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/secondpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="second"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="270sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/thirdpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="third"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="280sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fourthpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fourth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="290sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fifthpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fifth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="300sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/sixthpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sixth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="310sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/seventhpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seventh"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="320sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/eighthpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eighth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="330sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/ninethpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nineth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="340sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tenthpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tenth"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="350sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".Game.Editor.FragmentSummary">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewsummarytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:textSize="20sp"
+
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:layout_marginStart="60sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="80sp"
+        android:textStyle="bold"
+        android:text="@string/riepilogo_valori_scelti" />
+
+    <TextView
+        android:id="@+id/textViewvitesummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vite_selezionate"
+        android:textSize="18sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="170sp"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:id="@+id/textViewvitesetsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200sp"
+        android:layout_marginTop="170sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewspeedsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/velocit_pallina"
+        android:textSize="18sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="220sp"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:id="@+id/textViewspeedsetsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200sp"
+        android:layout_marginTop="220sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewlevelsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/livelloeditor"
+        android:textSize="18sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="270sp"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:id="@+id/textViewlevelsetsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110sp"
+        android:layout_marginTop="270sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imglevelsummary"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="270sp"/>
+    <TextView
+        android:id="@+id/textViewpowerupsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/powerup_selezionati"
+        android:textSize="18sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="320sp"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:id="@+id/textViewpwruplaser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laser"
+        android:textSize="16sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="350sp"
+        android:layout_marginStart="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewprwlaserset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110sp"
+        android:layout_marginTop="350sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewpwrupexpand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expand"
+        android:textSize="16sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="370sp"
+        android:layout_marginStart="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewprwexpandset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110sp"
+        android:layout_marginTop="370sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewpwrupdevil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devil"
+        android:textSize="16sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="390sp"
+        android:layout_marginStart="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewprwdevilset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110sp"
+        android:layout_marginTop="390sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewpwrupsmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small"
+        android:textSize="16sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="410sp"
+        android:layout_marginStart="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewprwsmallset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110sp"
+        android:layout_marginTop="410sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewdropratesummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DropRate:"
+        android:textSize="18sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="450sp"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:id="@+id/textViewdropratesetsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130sp"
+        android:layout_marginTop="450sp"
+        android:fontFamily="@font/audiowide"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/avvia_livello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/avvia_livello_personalizzato"
+        android:layout_marginTop="250sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/sfondo_button"
+        android:textSize="17sp"
+
+        />
+
+</FrameLayout>

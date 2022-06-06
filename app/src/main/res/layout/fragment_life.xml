@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".Game.Editor.FragmentLife">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:textSize="20sp"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="80sp"
+        android:textStyle="bold"
+        android:text="@string/scegli_il_numero_di_vite_nel_gioco" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="250sp"
+            android:layout_marginStart="20sp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:thumbTint="@color/white"
+            android:max="50"
+            android:min="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="319dp"
+        android:layout_height="411dp"
+        android:background="@color/light_blue_300"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/arkacovid_legend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="150sp"
+            android:fontFamily="@font/audiowide"
+            android:text="@string/legenda_potenziamenti"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <ImageView
+            android:id="@+id/imglaser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="140sp"
+            android:layout_marginBottom="100sp"
+            android:contentDescription="@string/immagine_laser"
+            android:src="@drawable/powerup_laser_1" />
+
+        <TextView
+            android:id="@+id/textlaser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70sp"
+            android:fontFamily="@font/audiowide"
+            android:paddingStart="30sp"
+            android:paddingEnd="20sp"
+            android:text="@string/powerup_laser_permette_la_rottura_dei_mattoni_con_laser_sparati_10_volte"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imgexpand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="140sp"
+            android:layout_marginBottom="40sp"
+            android:contentDescription="@string/immagine_espansione"
+            android:src="@drawable/powerup_expand_1" />
+
+        <TextView
+            android:id="@+id/textexpand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13sp"
+            android:fontFamily="@font/audiowide"
+            android:paddingStart="30sp"
+            android:paddingEnd="20sp"
+            android:text="@string/powerup_espansione_permette_al_paddle_di_coprire_una_superficie_pi_ampia"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imglife"
+            android:layout_width="41sp"
+            android:layout_height="28sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18sp"
+            android:layout_marginEnd="140sp"
+            android:contentDescription="@string/immagine_vita"
+            android:src="@drawable/life_up" />
+
+        <TextView
+            android:id="@+id/textlife"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="43sp"
+            android:fontFamily="@font/audiowide"
+            android:paddingStart="30sp"
+            android:paddingEnd="20sp"
+            android:text="@string/powerup_life_aumenta_il_numero_di_vite"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imgdevil"
+            android:layout_width="41sp"
+            android:layout_height="28sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70sp"
+            android:layout_marginEnd="140sp"
+            android:contentDescription="@string/immagine_devil"
+            android:src="@drawable/powerdown_devil" />
+
+        <TextView
+            android:id="@+id/textdevil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100sp"
+            android:fontFamily="@font/audiowide"
+            android:paddingStart="30sp"
+            android:paddingEnd="20sp"
+            android:text="@string/powerdown_devil_la_pallina_diventer_velocissima_e_difficile_da_gestire"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imgsmall"
+            android:layout_width="41sp"
+            android:layout_height="28sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="130sp"
+            android:layout_marginEnd="140sp"
+            android:contentDescription="@string/immagine_small"
+            android:src="@drawable/powerdown_small" />
+
+        <TextView
+            android:id="@+id/textsmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="158sp"
+            android:fontFamily="@font/audiowide"
+            android:paddingStart="30sp"
+            android:paddingEnd="20sp"
+            android:text="@string/powerdown_small_il_paddle_si_rimpicciolisce_di_molto"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

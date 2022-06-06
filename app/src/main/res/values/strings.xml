@@ -1,0 +1,104 @@
+<resources>
+    <!--Gestione dei plurals in base al numero di stanze-->
+    <plurals name="numberOfSRoomsAvailable">
+        <item quantity="zero">%d nessuna stanza</item>
+        <item quantity="one">%d stanza</item>
+        <item quantity="other">%d stanze</item>
+    </plurals>
+    <string name="app_name">Arkavirus</string>
+    <string name="sett_landscape">Landscape</string>
+    <string name="sett_music">Musica</string>
+    <string name="sett_audiofx">Audio Fx</string>
+    <string name="sett_gameMode">Modalità di gioco</string>
+    <string name="gioca_offline">Gioca offline</string>
+    <string name="crea_una_stanza">Crea una stanza</string>
+    <string name="nuovo_gioco">Nuovo gioco</string>
+    <string name="variante_virus">Modalità virus</string>
+    <string name="multigiocatore">Multigiocatore</string>
+    <string name="profilo">Profilo</string>
+    <string name="mattoni">Mattoni</string>
+    <string name="stanze">stanze</string>
+    <string name="nessuna_stanza_disponibile">Nessuna stanza disponibile</string>
+    <string name="effetti_sonori">Effetti sonori</string>
+    <string name="email_utente">email utente</string>
+    <string name="vota_l_app">Vota l\'app</string>
+    <string name="segnalaci_i_tuoi_bug">Segnalaci i tuoi bug</string>
+    <string name="sign_out">Sign out</string>
+    <string name="legenda_potenziamenti">Legenda Potenziamenti</string>
+    <string name="powerup_laser_permette_la_rottura_dei_mattoni_con_laser_sparati_10_volte">PowerUp laser,permette la rottura dei mattoni con laser sparati 10 volte</string>
+    <string name="powerup_espansione_permette_al_paddle_di_coprire_una_superficie_pi_ampia">PowerUp espansione,permette al paddle di coprire una superficie più ampia</string>
+    <string name="powerdown_small_il_paddle_si_rimpicciolisce_di_molto">PowerDown small,il paddle si riduce di molto</string>
+    <string name="powerdown_devil_la_pallina_diventer_velocissima_e_difficile_da_gestire">PowerDown devil,la pallina diventerà velocissima e difficile da gestire</string>
+    <string name="powerup_life_aumenta_il_numero_di_vite">Powerup life,aumenta il numero di vite</string>
+    <string name="accedi_per_sbloccare_nuove_funzionalit">Accedi per sbloccare nuove funzionalità</string>
+    <string name="riepilogo_dati_giocatore">Riepilogo dati giocatore</string>
+    <string name="nome_utente">Nome utente</string>
+    <string name="high_score">High Score</string>
+    <string name="Devi_loggarti_per_visualizzare_le_stanze">Devi loggarti/collegarti ad internet per visualizzare le stanze</string>
+    <string name="partite_giocate">Partite Giocate</string>
+    <string name="classifica">classifica</string>
+    <string name="immagine_coppa">immagine coppa</string>
+    <string name="immagine_avatar">Immagine avatar</string>
+    <string name="immagine_small">immagine small</string>
+    <string name="immagine_devil">immagine devil</string>
+    <string name="immagine_vita">immagine vita</string>
+    <string name="immagine_espansione">immagine espansione</string>
+    <string name="immagine_laser">immagine laser</string>
+    <string name="opzioni">Opzioni</string>
+    <string name="editor_lv">editor lv</string>
+    <string name="long_press_newgame">In questa modalità giocherai con i livelli preimpostati</string>
+    <string name="long_press_editor">In questa modalità potrai personalizzare i tuoi livelli come meglio credi</string>
+    <string name="long_press_info">Informazioni sui powerup nel gioco</string>
+    <string name="long_press_virus">In questa modalità giocherai nella variante a tema VIRUS</string>
+    <string name="long_press_multi">Modalità per giocare con i tuoi amici Online</string>
+    <string name="long_press_profile">Visualizza le tue informazioni e il relativo punteggio in classifica</string>
+    <string name="long_press_option">Qui potrai gestire le opzioni relative ai settaggi della musica e loggare con il tuo account Google</string>
+    <string name="internet_connect">Il telefono non è connesso ad internet, si prega di controllare la connessione per giocare online</string>
+    <string name="ritorno_al_menu">Ritorno al menù</string>
+    <string name="ritorno_al_menu_principale">Sei sicuro di voler tornare al menù principale?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="livello">Livello</string>
+    <string name="vite">Vite</string>
+    <string name="punteggio">Punt</string>
+    <string name="punteggio_whatsapp">Punteggio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scegli_il_numero_di_vite_nel_gioco">Scegli il numero di vite nel gioco</string>
+    <string name="scegli_i_powerup_e_il_drop_rate_nel_gioco">Scegli i powerUp e il drop rate nel gioco</string>
+    <string name="scegli_la_velocit_della_pallina_nel_gioco">Scegli la velocità della pallina nel gioco</string>
+    <string name="velocit">Velocità</string>
+    <string name="riepilogo_valori_scelti">Riepilogo Valori scelti</string>
+    <string name="vite_selezionate">Vite Selezionate:</string>
+    <string name="velocit_pallina">Velocità pallina:</string>
+    <string name="velocit_pallina_fragment">Velocità pallina</string>
+    <string name="livelloeditor">Livello:</string>
+    <string name="powerup_selezionati">Powerup selezionati:</string>
+    <string name="avvia_livello_personalizzato">Avvia livello Personalizzato</string>
+    <string name="riepilogo">Riepilogo</string>
+    <string name="velocita_bassa">Velocità Bassa</string>
+    <string name="velocita_media">Velocità Media</string>
+    <string name="velocita_alta">Velocità Alta</string>
+    <string name="disattivo">Disattivo</string>
+    <string name="attivo">Attivo</string>
+    <string name="basso">Basso</string>
+    <string name="medio">Medio</string>
+    <string name="alto">Alto</string>
+    <string name="drop_basso">Drop Basso</string>
+    <string name="drop_medio">Drop Medio</string>
+    <string name="drop_alto">Drop Alto</string>
+    <string name="powerup">PowerUp</string>
+    <string name="premi_indietro">Premi il pulsante back per uscire dalla partita</string>
+    <string name="hai_perso">Hai perso…</string>
+    <string name="hai_vinto">HAI VINTO!</string>
+    <string name="multipl2">Aspettando il player 2...</string>
+    <string name="speed">Velocità: </string>
+    <string name="speedCounter">Hai raggiunto velocità: </string>
+    <string-array name="gamemode">
+        <item>Touch</item>
+        <item>Accelerometro</item>
+    </string-array>
+
+
+</resources>
+
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sfondo"
+    tools:context=".Game.Editor.Editor">
+
+    <FrameLayout
+        android:id="@+id/frameForOption"
+        android:layout_width="match_parent"
+        android:layout_height="601dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/buttonBrick"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue_100"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/mattoni" />
+
+        <Button
+            android:id="@+id/buttonSpeedBall"
+            android:layout_width="205dp"
+            android:background="@color/light_blue_200"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/velocit_pallina_fragment" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPup"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue_300"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/powerup" />
+
+        <Button
+            android:id="@+id/buttonNumeroVite"
+            android:layout_width="205dp"
+            android:background="@color/light_blue_400"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/vite" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/iniziaEditor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue_500"
+        android:textSize="20sp"
+        android:text="@string/riepilogo"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/audiowide"
+        android:textAlignment="center">
+    </Button>
+    </LinearLayout>
+
+</LinearLayout>

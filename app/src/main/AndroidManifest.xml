@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.arkanoid">
+
+    <application
+        android:allowBackup="true"
+        android:anyDensity="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/FullScreen">
+        <activity android:name=".Game.Editor.MainActivityEditor"></activity>
+        <activity android:name=".Game.Editor.Editor" />
+        <activity android:name=".Multiplayer.MultiplayerMode" />
+        <activity android:name=".Settings.UserActivity" />
+        <activity android:name=".Settings.Settings" />
+        <activity
+            android:name=".MenuActivity"
+            android:configChanges="orientation" />
+        <activity android:name=".Game.MainActivity" />
+        <activity android:name=".Multiplayer.MainActivityMulti" />
+        <activity android:name=".CovidGame.MainActivityCovid" />
+        <activity
+            android:name=".SplashScreen.SplashScreenActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen.ActivitySplashAdlc"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <!-- Permessi richiesti per accedere a internet e verificare la connessione -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

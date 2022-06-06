@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Game.Editor.FragmentBrick">
+
+    <!-- ogni mattone corrisponde a un livello-->
+
+
+    <ImageView
+        android:id="@+id/imageLevel"
+        android:layout_width="match_parent"
+        android:layout_height="492dp"></ImageView>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+
+            android:background="@drawable/brick_gold"
+            android:fontFamily="@font/audiowide"
+            android:id="@+id/lv1"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:background="@drawable/brick_silver_10"
+            android:id="@+id/lv2"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:text="2" />
+
+        <Button
+            android:background="@drawable/brick_gold"
+            android:fontFamily="@font/audiowide"
+            android:id="@+id/lv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <Button
+            android:background="@drawable/brick_silver_10"
+            android:id="@+id/lv4"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:text="4" />
+
+        <Button
+            android:background="@drawable/brick_gold"
+            android:fontFamily="@font/audiowide"
+            android:id="@+id/lv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/lv6"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brick_silver_10"
+            android:fontFamily="@font/audiowide"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/lv7"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brick_gold"
+            android:fontFamily="@font/audiowide"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/lv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brick_silver_10"
+            android:fontFamily="@font/audiowide"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/lv9"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brick_gold"
+            android:fontFamily="@font/audiowide"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/lv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brick_silver_10"
+            android:fontFamily="@font/audiowide"
+            android:text="10" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

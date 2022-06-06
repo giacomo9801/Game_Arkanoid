@@ -1,0 +1,57 @@
+{
+//  Replace this file!!
+  "project_info": {
+    "project_number": "xxxxxxxxxxxxxxxxxx",
+    "firebase_url": "xxxxxxxxxxxxxxxxxxx",
+    "project_id": "arkanoid-boolean",
+    "storage_bucket": "xxxxxxxxxxxx"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "android_client_info": {
+          "package_name": "com.example.android.arkanoid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "xxxxxxxxxxxxxxx",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.arkanoid",
+            "certificate_hash": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+          }
+        },
+        {
+          "client_id": "xxxxxxxxxxxxxxx",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.arkanoid",
+            "certificate_hash": "xxxxxxxxxxxxxxxxxxxxxxx"
+          }
+        },
+        {
+          "client_id": "24685877921-qr1r79bdhnml4hmumkjd6tfggm229nmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

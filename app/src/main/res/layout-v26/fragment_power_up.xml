@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Game.Editor.FragmentPowerUp">
+
+    <!-- aggiunto v26 perchè la funzione min non è abilitata sotto un certo API -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:textSize="20sp"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="80sp"
+        android:textStyle="bold"
+        android:text="@string/scegli_i_powerup_e_il_drop_rate_nel_gioco" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="180sp"
+            android:src="@drawable/powerup_laser_1" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="180sp"
+            android:fontFamily="@font/audiowide"
+            android:text="PowerUp Laser"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchlaser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180sp"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="240sp"
+            android:src="@drawable/powerup_expand_1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="240sp"
+            android:fontFamily="@font/audiowide"
+            android:text="PowerUp Expand"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchexpand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240sp"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="300sp"
+            android:src="@drawable/powerdown_devil" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="300sp"
+            android:fontFamily="@font/audiowide"
+            android:text="PowerDown Devil"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchdevil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300sp"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="360sp"
+            android:src="@drawable/powerdown_small" />
+
+        <TextView
+            android:id="@+id/View4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="360sp"
+            android:fontFamily="@font/audiowide"
+            android:text="PowerDown Small"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchsmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360sp"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410sp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop rate"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_marginTop="450sp"
+        android:layout_marginStart="30sp"
+        android:textSize="18sp"
+        />
+
+        <SeekBar
+            android:id="@+id/seekBardroprate"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="450sp"
+            android:max="3"
+            android:min="1"
+            android:progress="1"
+            android:thumbTint="@color/white" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewdroprate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="480sp"
+        android:layout_marginStart="165sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+</FrameLayout>

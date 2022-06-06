@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".Settings.Settings">
+
+
+    <TextView
+        android:id="@+id/textSettLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/sett_landscape"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_always_landscape_portrait"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSettMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/sett_music"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_slideshow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSettAudioFX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="204dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/effetti_sonori"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_slideshow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textGameMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="312dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/sett_gameMode"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_land"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="708dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="708dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_effectsound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="708dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/emailutentesettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="444dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/email_utente"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="692dp"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_signIn"
+        android:layout_width="213dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="940dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="266dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="940dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/sfondo_button"
+        android:drawableStart="@android:drawable/ic_delete"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/sign_out"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="254dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="1280dp"
+        android:background="@drawable/sfondo_button"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:theme="@style/RatingBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewRateBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1176dp"
+        android:drawablePadding="2sp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/vota_l_app"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Feedback"
+        android:layout_width="71dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="650sp"
+        android:layout_marginTop="1484dp"
+        android:background="@drawable/feedback_bug"
+        android:fontFamily="@font/audiowide"
+        android:padding="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewsendBug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1484dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/segnalaci_i_tuoi_bug"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textaccedifunzionalita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="752dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:paddingStart="12sp"
+        android:paddingEnd="12sp"
+        android:text="@string/accedi_per_sbloccare_nuove_funzionalit"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
